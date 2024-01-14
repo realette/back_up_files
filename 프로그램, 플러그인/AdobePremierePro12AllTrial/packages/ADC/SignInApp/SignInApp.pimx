@@ -1,0 +1,45 @@
+<package_installation_info version="2.0">	
+<packageid>74AA0EB7-03A0-4994-A6A8-E1D729A501BE</packageid> 
+ <name>SignInApp</name>
+<version>4.3.0.256</version>
+	<target_location>/SignInApp/</target_location>
+	<packages>
+		<pimaInfo>
+			<packagetype>zip</packagetype> 
+			<name>SignInApp</name>
+			<assets_size>1151072</assets_size> 
+			<applet_registration_info>
+				<applet_registration_element>
+					<name>SignInApp</name>
+					<type>UI</type>
+					<version>1.0</version>
+					<module_path>/SignInApp/resource/aem/ui/aemInit.js</module_path>
+					<display_name>SignInApp UI Element</display_name>
+				</applet_registration_element>
+				<applet_registration_element>
+					<name>SignInApp</name>
+					<type>BL</type>
+					<version>1.0</version>
+					<module_path>/SignInApp/SignInAppBL.dll</module_path>
+					<display_name>SignInApp BL Element</display_name>
+				</applet_registration_element>
+			</applet_registration_info>
+			<applet_relationship_info>
+				<applet_relationship_element>
+					<name>SignInApp</name>
+					<type>UI</type>
+					<version>1.0</version>
+					<relationship>UIX</relationship>
+					<relative_name>HEX</relative_name>
+					<relative_type>UIX</relative_type>
+					<relative_version>1.0</relative_version>
+					<relative_order>4000</relative_order>
+				</applet_relationship_element>
+			</applet_relationship_info>
+			<validation_info>
+				<validation_xml>PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48VmFsaWRhdGlvbkluZm8+PEZpbGU+PEluc3RhbGxQYXRoPlNpZ25JbkFwcEJMLmRsbDwvSW5zdGFsbFBhdGg+PFNpZ25hdHVyZVR5cGU+RGlnaXRhbFNpZ25hdHVyZTwvU2lnbmF0dXJlVHlwZT48U2lnbmF0dXJlSW5mbz5BZG9iZSBTeXN0ZW1zIEluY29ycG9yYXRlZHt8fVN5bWFudGVjIENsYXNzIDMgRXh0ZW5kZWQgVmFsaWRhdGlvbiBDb2RlIFNpZ25pbmcgQ0EgLSBHMnt8fVZlcmlTaWduIENsYXNzIDMgUHVibGljIFByaW1hcnkgQ2VydGlmaWNhdGlvbiBBdXRob3JpdHkgLSBHNTwvU2lnbmF0dXJlSW5mbz48L0ZpbGU+PC9WYWxpZGF0aW9uSW5mbz4=</validation_xml>
+				<sig>hYOprRXBRidFWM+OnddT9hYhZ3oo4o+zof0epZNoQVnByS/5/P3oySSETUYIMvlOohK3C/g4FqCuMgeTxZTmhCpUHVNsAjM4xeUyWH3aRYY/9FnCXCueb9G0DVxeinGjGxQ9lEmklBxvUS2WS7LdH4EL0dcjWR1f0hteBO9z4iyhDaPReoEyF4SIjkbqK0y54Aas6bmrFen7749aQZ4K2hK8giOpFuX7biSIxkZdqu8ieKBeCS0ZSOkMXJuLYxp6H473g2ZXIY0RGUKJZ+R3FQ228eESkLmNki+BPM/opWLbrPYlMddlXsMcxn8Mt5nt+t4RKnk8JysdYO9r6jTf8bgBZS+oWgBMiVQq7svwswseraL0/FErb8POLG7TqICXBak1O7WRWI2kC1nFUN032eAWqlsdkD+Me/fWqZRdgfrSS82qEmq5D1QKrK+WmGIK+4Bvwn3UsEvzCBHUlmEIeWmgpCwsVooUY2bUpJ5BNOYbTpQ4hwb9KUN9KkHMehyF</sig>
+			</validation_info>
+		</pimaInfo>
+	</packages>
+</package_installation_info>

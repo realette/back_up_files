@@ -1,0 +1,33 @@
+<package_installation_info version="2.0">
+<packageid>3287C27B-C7D0-4CE1-B04D-0ED223A20871</packageid> 
+     <name>CCLibrary</name>
+<version>4.3.0.256</version>
+    <target_location>/CCLibrary/</target_location>
+    <packages>
+        <pimaInfo>
+            <packagetype>zip</packagetype>
+            <name>CCLibrary</name>
+            <assets_size>100350014</assets_size>
+            <modifiers>
+                <install_modifier>
+                    <executable_path>libs\node.exe</executable_path>
+                    <arguments>
+                        <argument>..\js\customhook.js</argument>
+                        <argument>install</argument>
+                    </arguments>
+                </install_modifier>
+                <uninstall_modifier>
+                    <executable_path>libs\node.exe</executable_path>
+                    <arguments>
+                        <argument>..\js\customhook.js</argument>
+                        <argument>uninstall</argument>
+                    </arguments>
+                </uninstall_modifier>
+            </modifiers>
+            <validation_info>
+                <validation_xml>PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48VmFsaWRhdGlvbkluZm8+PEZpbGU+PEluc3RhbGxQYXRoPkNDTGlicmFyeS5leGU8L0luc3RhbGxQYXRoPjxTaWduYXR1cmVUeXBlPkRpZ2l0YWxTaWduYXR1cmU8L1NpZ25hdHVyZVR5cGU+PFNpZ25hdHVyZUluZm8+QWRvYmUgU3lzdGVtcyBJbmNvcnBvcmF0ZWR7fH1TeW1hbnRlYyBDbGFzcyAzIEV4dGVuZGVkIFZhbGlkYXRpb24gQ29kZSBTaWduaW5nIENBIC0gRzJ7fH1WZXJpU2lnbiBDbGFzcyAzIFB1YmxpYyBQcmltYXJ5IENlcnRpZmljYXRpb24gQXV0aG9yaXR5IC0gRzU8L1NpZ25hdHVyZUluZm8+PC9GaWxlPjxGaWxlPjxJbnN0YWxsUGF0aD5qc1xub2RlX21vZHVsZXNcbm9kZS1Qcm94eVJlc29sdmVyXGJ1aWxkXFJlbGVhc2VcUHJveHlSZXNvbHZlcldpbi5kbGw8L0luc3RhbGxQYXRoPjxTaWduYXR1cmVUeXBlPkRpZ2l0YWxTaWduYXR1cmU8L1NpZ25hdHVyZVR5cGU+PFNpZ25hdHVyZUluZm8+QWRvYmUgU3lzdGVtcyBJbmNvcnBvcmF0ZWR7fH1TeW1hbnRlYyBDbGFzcyAzIEV4dGVuZGVkIFZhbGlkYXRpb24gQ29kZSBTaWduaW5nIENBIC0gRzJ7fH1WZXJpU2lnbiBDbGFzcyAzIFB1YmxpYyBQcmltYXJ5IENlcnRpZmljYXRpb24gQXV0aG9yaXR5IC0gRzU8L1NpZ25hdHVyZUluZm8+PC9GaWxlPjxGaWxlPjxJbnN0YWxsUGF0aD5qc1xub2RlX21vZHVsZXNcbm9kZS1Qcm94eVJlc29sdmVyXGJ1aWxkXFJlbGVhc2VcUHJveHlSZXNvbHZlcldpbjcuZGxsPC9JbnN0YWxsUGF0aD48U2lnbmF0dXJlVHlwZT5EaWdpdGFsU2lnbmF0dXJlPC9TaWduYXR1cmVUeXBlPjxTaWduYXR1cmVJbmZvPkFkb2JlIFN5c3RlbXMgSW5jb3Jwb3JhdGVke3x9U3ltYW50ZWMgQ2xhc3MgMyBFeHRlbmRlZCBWYWxpZGF0aW9uIENvZGUgU2lnbmluZyBDQSAtIEcye3x9VmVyaVNpZ24gQ2xhc3MgMyBQdWJsaWMgUHJpbWFyeSBDZXJ0aWZpY2F0aW9uIEF1dGhvcml0eSAtIEc1PC9TaWduYXR1cmVJbmZvPjwvRmlsZT48RmlsZT48SW5zdGFsbFBhdGg+anNcbm9kZV9tb2R1bGVzXG5vZGUtdnVsY2FuanNcYnVpbGRcUmVsZWFzZVxhZG9iZV9jYXBzLmRsbDwvSW5zdGFsbFBhdGg+PFNpZ25hdHVyZVR5cGU+RGlnaXRhbFNpZ25hdHVyZTwvU2lnbmF0dXJlVHlwZT48U2lnbmF0dXJlSW5mbz5BZG9iZSBTeXN0ZW1zIEluY29ycG9yYXRlZHt8fVN5bWFudGVjIENsYXNzIDMgRXh0ZW5kZWQgVmFsaWRhdGlvbiBDb2RlIFNpZ25pbmcgQ0EgLSBHMnt8fVZlcmlTaWduIENsYXNzIDMgUHVibGljIFByaW1hcnkgQ2VydGlmaWNhdGlvbiBBdXRob3JpdHkgLSBHNTwvU2lnbmF0dXJlSW5mbz48L0ZpbGU+PEZpbGU+PEluc3RhbGxQYXRoPmpzXG5vZGVfbW9kdWxlc1xub2RlLXZ1bGNhbmpzXGJ1aWxkXFJlbGVhc2VcVnVsY2FuQ29udHJvbC5kbGw8L0luc3RhbGxQYXRoPjxTaWduYXR1cmVUeXBlPkRpZ2l0YWxTaWduYXR1cmU8L1NpZ25hdHVyZVR5cGU+PFNpZ25hdHVyZUluZm8+QWRvYmUgU3lzdGVtcyBJbmNvcnBvcmF0ZWR7fH1TeW1hbnRlYyBDbGFzcyAzIEV4dGVuZGVkIFZhbGlkYXRpb24gQ29kZSBTaWduaW5nIENBIC0gRzJ7fH1WZXJpU2lnbiBDbGFzcyAzIFB1YmxpYyBQcmltYXJ5IENlcnRpZmljYXRpb24gQXV0aG9yaXR5IC0gRzU8L1NpZ25hdHVyZUluZm8+PC9GaWxlPjxGaWxlPjxJbnN0YWxsUGF0aD5qc1xub2RlX21vZHVsZXNcbm9kZS12dWxjYW5qc1xidWlsZFxSZWxlYXNlXFZ1bGNhbk1lc3NhZ2U1LmRsbDwvSW5zdGFsbFBhdGg+PFNpZ25hdHVyZVR5cGU+RGlnaXRhbFNpZ25hdHVyZTwvU2lnbmF0dXJlVHlwZT48U2lnbmF0dXJlSW5mbz5BZG9iZSBTeXN0ZW1zIEluY29ycG9yYXRlZHt8fVN5bWFudGVjIENsYXNzIDMgRXh0ZW5kZWQgVmFsaWRhdGlvbiBDb2RlIFNpZ25pbmcgQ0EgLSBHMnt8fVZlcmlTaWduIENsYXNzIDMgUHVibGljIFByaW1hcnkgQ2VydGlmaWNhdGlvbiBBdXRob3JpdHkgLSBHNTwvU2lnbmF0dXJlSW5mbz48L0ZpbGU+PEZpbGU+PEluc3RhbGxQYXRoPmxpYnNcbm9kZS5leGU8L0luc3RhbGxQYXRoPjxTaWduYXR1cmVUeXBlPkRpZ2l0YWxTaWduYXR1cmU8L1NpZ25hdHVyZVR5cGU+PFNpZ25hdHVyZUluZm8+Tm9kZS5qcyBGb3VuZGF0aW9ue3x9RGlnaUNlcnQgU0hBMiBBc3N1cmVkIElEIENvZGUgU2lnbmluZyBDQXt8fURpZ2lDZXJ0IEFzc3VyZWQgSUQgUm9vdCBDQTwvU2lnbmF0dXJlSW5mbz48L0ZpbGU+PC9WYWxpZGF0aW9uSW5mbz4=</validation_xml>
+                <sig>FafEPRFvwG+AXNbwXy+kYAO4A8xcKdHcu5q5N3fW4LBgXH2ygZTpJdZna2ilJYcOlxdQ5lBkBe0+K9Jqk2vCcdT2SztWl8fGF8mnFtNFVhBArgPbiz67oxZOBPAR6zy0fGKQLt2cFGRTfPAeMyQklbN7wkVov3qt8ZGE2fdjjGi1s54H7QxfDeg+oGdcgof2+U1TXlt2YLVXBqehFjMYpqJNsrgmJA0DGt2rBNQxGfHax6NtqMtEm62tYqgg36eTdD8EpBS65v4gBDZZoNJ/iFIDH/x4dJPqeWN51rHiZxdL0waU9a2bGqa+eulW0KCbQZqAgGFAECXfBheCnk9OBT+22hFfaZgSP6G+sTFPiX7xqCMCT1QGK+/fBAqwKAhEXgRckeRRiRvx7w6tsZWRp+5kiNSR9L1nn5rVMsdDGyzdmuEAS6s1JhqpO2IYIF+o/BLsKtJvXPgiXHDaPi/UydeVHSZdfGZndszwUPE0NRL0PwYMWlFZF/Bko1tBtRLj</sig>
+            </validation_info>
+        </pimaInfo>
+    </packages>
+</package_installation_info>

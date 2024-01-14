@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest version="2.0">
+ <versioninfo>
+  <build build="1.0.0.6" compilertarget="Release" datetime="2017/03/09:18:00:00" format="HyperDrive" lang="mul" licensemodel="Universal" platform="win64" product="Codecs" subproduct="Application" version="1.0.0">
+   <metadata>
+    <item key="HyperDrive" value="True"/>
+   </metadata>
+            <fileinfo>
+                <file name="Application.json" md5="C24C83941A9C7CCAE4865EE6AA527165" size="972"/>
+                <file name="AdobeInstalledCodecs.zip" md5="E6EB0E42F2889A3CC8395EA6F2573089" size="579"/>
+            </fileinfo>
+  </build>
+ </versioninfo>
+</manifest>

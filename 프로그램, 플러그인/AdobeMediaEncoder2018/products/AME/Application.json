@@ -1,0 +1,779 @@
+{
+  "Name" : "Media Encoder CC",
+  "SAPCode" : "AME",
+  "ProductVersion" : "12.0.0.202",
+  "CodexVersion" : "12.0.0",
+  "BaseVersion" : "12.0.0",
+  "Platform" : "win64",
+  "SupportedLanguages" : {
+    "Language" : [ {
+      "value" : "",
+      "locale" : "mul"
+    } ]
+  },
+  "LanguageSet" : "LS20",
+  "ConflictingProcesses" : {
+    "ConflictingProcess" : [ {
+      "RegularExpression" : "^[Aa][Dd][Oo][Bb][Ee] [Mm][Ee][Dd][Ii][Aa] [Ee][Nn][Cc][Oo][Dd][Ee][Rr]\\.[Ee][Xx][Ee]$",
+      "ProcessDisplayName" : "Adobe Media Encoder CC 2018",
+      "Reason" : "",
+      "ParentRegularExpression" : "",
+      "ParentDisplayName" : "",
+      "RelativePath" : "[INSTALLDIR]\\Adobe Media Encoder CC 2018",
+      "headless" : false,
+      "forceKillAllowed" : false,
+      "adobeOwned" : false
+    }, {
+      "RegularExpression" : "^[Ll][Oo][Gg][Tt][Rr][Aa][Nn][Ss][Pp][Oo][Rr][Tt]2\\.[Ee][Xx][Ee]$",
+      "ProcessDisplayName" : "LogTransport2",
+      "Reason" : "Dependent process",
+      "ParentRegularExpression" : "^[Aa][Dd][Oo][Bb][Ee] [Mm][Ee][Dd][Ii][Aa] [Ee][Nn][Cc][Oo][Dd][Ee][Rr]\\.[Ee][Xx][Ee]$",
+      "ParentDisplayName" : "Adobe Media Encoder CC 2018",
+      "RelativePath" : "[INSTALLDIR]\\Adobe Media Encoder CC 2018\\LogTransport2.exe",
+      "headless" : true,
+      "forceKillAllowed" : true,
+      "adobeOwned" : true
+    } ]
+  },
+  "AMTConfig" : {
+    "path" : "[INSTALLDIR]\\Adobe Media Encoder CC 2018\\AMT\\application.xml",
+    "LEID" : "V7{}AdobeMediaEncoder-12-Win-GM",
+    "appID" : "{AME-12.0.0-64-ADBEADBEADBEADBEADBEAD}"
+  },
+  "AppLaunch" : "[INSTALLDIR]\\Adobe Media Encoder CC 2018\\Adobe Media Encoder.exe",
+  "InstallDir" : {
+    "value" : "[AdobeProgramFiles]",
+    "maxPath" : "Adobe Media Encoder CC 2018\\Plug-Ins\\(AfterEffectsLib)\\Effects\\Synthetic Aperture\\(CF3 Support)\\Presets\\Gels\\Rosco Storaro Selection\\Rosco Storaro Selection_2010_VS Magenta.cfpreset"
+  },
+  "AddRemoveInfo" : {
+    "DisplayName" : {
+      "Language" : [ {
+        "value" : "Adobe Media Encoder CC 2018",
+        "locale" : "ar_AE"
+      }, {
+        "value" : "Adobe Media Encoder CC 2018",
+        "locale" : "be_BY"
+      }, {
+        "value" : "Adobe Media Encoder CC 2018",
+        "locale" : "bg_BG"
+      }, {
+        "value" : "Adobe Media Encoder CC 2018",
+        "locale" : "ca_ES"
+      }, {
+        "value" : "Adobe Media Encoder CC 2018",
+        "locale" : "cs_CZ"
+      }, {
+        "value" : "Adobe Media Encoder CC 2018",
+        "locale" : "da_DK"
+      }, {
+        "value" : "Adobe Media Encoder CC 2018",
+        "locale" : "de_DE"
+      }, {
+        "value" : "Adobe Media Encoder CC 2018",
+        "locale" : "el_GR"
+      }, {
+        "value" : "Adobe Media Encoder CC 2018",
+        "locale" : "en_AE"
+      }, {
+        "value" : "Adobe Media Encoder CC 2018",
+        "locale" : "en_GB"
+      }, {
+        "value" : "Adobe Media Encoder CC 2018",
+        "locale" : "en_IL"
+      }, {
+        "value" : "Adobe Media Encoder CC 2018",
+        "locale" : "en_MX"
+      }, {
+        "value" : "Adobe Media Encoder CC 2018",
+        "locale" : "en_US"
+      }, {
+        "value" : "Adobe Media Encoder CC 2018",
+        "locale" : "en_XC"
+      }, {
+        "value" : "Adobe Media Encoder CC 2018",
+        "locale" : "en_XM"
+      }, {
+        "value" : "Adobe Media Encoder CC 2018",
+        "locale" : "es_ES"
+      }, {
+        "value" : "Adobe Media Encoder CC 2018",
+        "locale" : "es_MX"
+      }, {
+        "value" : "Adobe Media Encoder CC 2018",
+        "locale" : "es_QM"
+      }, {
+        "value" : "Adobe Media Encoder CC 2018",
+        "locale" : "et_EE"
+      }, {
+        "value" : "Adobe Media Encoder CC 2018",
+        "locale" : "fi_FI"
+      }, {
+        "value" : "Adobe Media Encoder CC 2018",
+        "locale" : "fr_CA"
+      }, {
+        "value" : "Adobe Media Encoder CC 2018",
+        "locale" : "fr_FR"
+      }, {
+        "value" : "Adobe Media Encoder CC 2018",
+        "locale" : "fr_MA"
+      }, {
+        "value" : "Adobe Media Encoder CC 2018",
+        "locale" : "fr_MX"
+      }, {
+        "value" : "Adobe Media Encoder CC 2018",
+        "locale" : "fr_XM"
+      }, {
+        "value" : "Adobe Media Encoder CC 2018",
+        "locale" : "he_IL"
+      }, {
+        "value" : "Adobe Media Encoder CC 2018",
+        "locale" : "hi_IN"
+      }, {
+        "value" : "Adobe Media Encoder CC 2018",
+        "locale" : "hr_HR"
+      }, {
+        "value" : "Adobe Media Encoder CC 2018",
+        "locale" : "hu_HU"
+      }, {
+        "value" : "Adobe Media Encoder CC 2018",
+        "locale" : "is_IS"
+      }, {
+        "value" : "Adobe Media Encoder CC 2018",
+        "locale" : "it_IT"
+      }, {
+        "value" : "Adobe Media Encoder CC 2018",
+        "locale" : "ja_JP"
+      }, {
+        "value" : "Adobe Media Encoder CC 2018",
+        "locale" : "ko_KR"
+      }, {
+        "value" : "Adobe Media Encoder CC 2018",
+        "locale" : "lt_LT"
+      }, {
+        "value" : "Adobe Media Encoder CC 2018",
+        "locale" : "lv_LV"
+      }, {
+        "value" : "Adobe Media Encoder CC 2018",
+        "locale" : "mk_MK"
+      }, {
+        "value" : "Adobe Media Encoder CC 2018",
+        "locale" : "nb_NO"
+      }, {
+        "value" : "Adobe Media Encoder CC 2018",
+        "locale" : "nl_NL"
+      }, {
+        "value" : "Adobe Media Encoder CC 2018",
+        "locale" : "nn_NO"
+      }, {
+        "value" : "Adobe Media Encoder CC 2018",
+        "locale" : "no_NO"
+      }, {
+        "value" : "Adobe Media Encoder CC 2018",
+        "locale" : "pl_PL"
+      }, {
+        "value" : "Adobe Media Encoder CC 2018",
+        "locale" : "pt_BR"
+      }, {
+        "value" : "Adobe Media Encoder CC 2018",
+        "locale" : "ro_RO"
+      }, {
+        "value" : "Adobe Media Encoder CC 2018",
+        "locale" : "ru_RU"
+      }, {
+        "value" : "Adobe Media Encoder CC 2018",
+        "locale" : "sh_YU"
+      }, {
+        "value" : "Adobe Media Encoder CC 2018",
+        "locale" : "sk_SK"
+      }, {
+        "value" : "Adobe Media Encoder CC 2018",
+        "locale" : "sl_SI"
+      }, {
+        "value" : "Adobe Media Encoder CC 2018",
+        "locale" : "sq_AL"
+      }, {
+        "value" : "Adobe Media Encoder CC 2018",
+        "locale" : "sv_SE"
+      }, {
+        "value" : "Adobe Media Encoder CC 2018",
+        "locale" : "th_TH"
+      }, {
+        "value" : "Adobe Media Encoder CC 2018",
+        "locale" : "tr_TR"
+      }, {
+        "value" : "Adobe Media Encoder CC 2018",
+        "locale" : "uk_UA"
+      }, {
+        "value" : "Adobe Media Encoder CC 2018",
+        "locale" : "vi_VN"
+      }, {
+        "value" : "Adobe Media Encoder CC 2018",
+        "locale" : "zh_CN"
+      }, {
+        "value" : "Adobe Media Encoder CC 2018",
+        "locale" : "zh_TW"
+      } ]
+    },
+    "DisplayIcon" : "[AdobeCommon]\\Keyfiles\\AdobeMediaEncoder\\12.0\\Icons\\ame_cc_pkg.ico",
+    "DisplayVersion" : {
+      "Language" : [ {
+        "value" : "12.0.0",
+        "locale" : "ar_AE"
+      }, {
+        "value" : "12.0.0",
+        "locale" : "be_BY"
+      }, {
+        "value" : "12.0.0",
+        "locale" : "bg_BG"
+      }, {
+        "value" : "12.0.0",
+        "locale" : "ca_ES"
+      }, {
+        "value" : "12.0.0",
+        "locale" : "cs_CZ"
+      }, {
+        "value" : "12.0.0",
+        "locale" : "da_DK"
+      }, {
+        "value" : "12.0.0",
+        "locale" : "de_DE"
+      }, {
+        "value" : "12.0.0",
+        "locale" : "el_GR"
+      }, {
+        "value" : "12.0.0",
+        "locale" : "en_AE"
+      }, {
+        "value" : "12.0.0",
+        "locale" : "en_GB"
+      }, {
+        "value" : "12.0.0",
+        "locale" : "en_IL"
+      }, {
+        "value" : "12.0.0",
+        "locale" : "en_MX"
+      }, {
+        "value" : "12.0.0",
+        "locale" : "en_US"
+      }, {
+        "value" : "12.0.0",
+        "locale" : "en_XC"
+      }, {
+        "value" : "12.0.0",
+        "locale" : "en_XM"
+      }, {
+        "value" : "12.0.0",
+        "locale" : "es_ES"
+      }, {
+        "value" : "12.0.0",
+        "locale" : "es_MX"
+      }, {
+        "value" : "12.0.0",
+        "locale" : "es_QM"
+      }, {
+        "value" : "12.0.0",
+        "locale" : "et_EE"
+      }, {
+        "value" : "12.0.0",
+        "locale" : "fi_FI"
+      }, {
+        "value" : "12.0.0",
+        "locale" : "fr_CA"
+      }, {
+        "value" : "12.0.0",
+        "locale" : "fr_FR"
+      }, {
+        "value" : "12.0.0",
+        "locale" : "fr_MA"
+      }, {
+        "value" : "12.0.0",
+        "locale" : "fr_MX"
+      }, {
+        "value" : "12.0.0",
+        "locale" : "fr_XM"
+      }, {
+        "value" : "12.0.0",
+        "locale" : "he_IL"
+      }, {
+        "value" : "12.0.0",
+        "locale" : "hi_IN"
+      }, {
+        "value" : "12.0.0",
+        "locale" : "hr_HR"
+      }, {
+        "value" : "12.0.0",
+        "locale" : "hu_HU"
+      }, {
+        "value" : "12.0.0",
+        "locale" : "is_IS"
+      }, {
+        "value" : "12.0.0",
+        "locale" : "it_IT"
+      }, {
+        "value" : "12.0.0",
+        "locale" : "ja_JP"
+      }, {
+        "value" : "12.0.0",
+        "locale" : "ko_KR"
+      }, {
+        "value" : "12.0.0",
+        "locale" : "lt_LT"
+      }, {
+        "value" : "12.0.0",
+        "locale" : "lv_LV"
+      }, {
+        "value" : "12.0.0",
+        "locale" : "mk_MK"
+      }, {
+        "value" : "12.0.0",
+        "locale" : "nb_NO"
+      }, {
+        "value" : "12.0.0",
+        "locale" : "nl_NL"
+      }, {
+        "value" : "12.0.0",
+        "locale" : "nn_NO"
+      }, {
+        "value" : "12.0.0",
+        "locale" : "no_NO"
+      }, {
+        "value" : "12.0.0",
+        "locale" : "pl_PL"
+      }, {
+        "value" : "12.0.0",
+        "locale" : "pt_BR"
+      }, {
+        "value" : "12.0.0",
+        "locale" : "ro_RO"
+      }, {
+        "value" : "12.0.0",
+        "locale" : "ru_RU"
+      }, {
+        "value" : "12.0.0",
+        "locale" : "sh_YU"
+      }, {
+        "value" : "12.0.0",
+        "locale" : "sk_SK"
+      }, {
+        "value" : "12.0.0",
+        "locale" : "sl_SI"
+      }, {
+        "value" : "12.0.0",
+        "locale" : "sq_AL"
+      }, {
+        "value" : "12.0.0",
+        "locale" : "sv_SE"
+      }, {
+        "value" : "12.0.0",
+        "locale" : "th_TH"
+      }, {
+        "value" : "12.0.0",
+        "locale" : "tr_TR"
+      }, {
+        "value" : "12.0.0",
+        "locale" : "uk_UA"
+      }, {
+        "value" : "12.0.0",
+        "locale" : "vi_VN"
+      }, {
+        "value" : "12.0.0",
+        "locale" : "zh_CN"
+      }, {
+        "value" : "12.0.0",
+        "locale" : "zh_TW"
+      } ]
+    }
+  },
+  "Packages" : {
+    "Package" : [ {
+      "Type" : "core",
+      "PackageName" : "AdobeMediaEncoder12AllTrial",
+      "AliasPackageName" : "1",
+      "PackageVersion" : "12.0.0.202",
+      "DownloadSize" : 1031356146,
+      "ExtractSize" : 2877323788,
+      "InstallSequenceNumber" : 1001
+    } ]
+  },
+  "Dependencies" : {
+    "Dependency" : [ {
+      "SAPCode" : "CDEC",
+      "BaseVersion" : "1.0.0"
+    } ]
+  },
+  "CompressionType" : "Zip-Deflated",
+  "ProductDescription" : {
+    "Tagline" : {
+      "Language" : [ {
+        "value" : "Quickly output video files for virtually any screen",
+        "locale" : "en_US"
+      }, {
+        "value" : "Quickly output video files for virtually any screen",
+        "locale" : "en_GB"
+      }, {
+        "value" : "Quickly output video files for virtually any screen",
+        "locale" : "en_AE"
+      }, {
+        "value" : "Quickly output video files for virtually any screen",
+        "locale" : "en_IL"
+      }, {
+        "value" : "Salida rápida para archivos de vídeo en la mayoría de pantallas",
+        "locale" : "es_ES"
+      }, {
+        "value" : "Salida rápida para archivos de vídeo en la mayoría de pantallas",
+        "locale" : "es_MX"
+      }, {
+        "value" : "Schnelle Ausgabe von Videodateien für nahezu jedes Bildschirmformat",
+        "locale" : "de_DE"
+      }, {
+        "value" : "Produisez rapidement des fichiers vidéo adaptés à pratiquement tout type d’écran",
+        "locale" : "fr_FR"
+      }, {
+        "value" : "Produisez rapidement des fichiers vidéo adaptés à pratiquement tout type d’écran",
+        "locale" : "fr_CA"
+      }, {
+        "value" : "Produisez rapidement des fichiers vidéo adaptés à pratiquement tout type d’écran",
+        "locale" : "fr_MA"
+      }, {
+        "value" : "Output rapido di video per praticamente qualsiasi tipo di schermo",
+        "locale" : "it_IT"
+      }, {
+        "value" : "事実上あらゆるスクリーンに対応するビデオファイルをすばやく出力",
+        "locale" : "ja_JP"
+      }, {
+        "value" : "거의 모든 화면용으로 신속하게 비디오 파일 출력",
+        "locale" : "ko_KR"
+      }, {
+        "value" : "Crie e exporte arquivos de vídeo para qualquer tela virtualmente",
+        "locale" : "pt_BR"
+      }, {
+        "value" : "Быстрая подготовка видеофайлов для отображения на любом экране",
+        "locale" : "ru_RU"
+      }, {
+        "value" : "几乎可在所有屏幕上快速输出视频文件",
+        "locale" : "zh_CN"
+      }, {
+        "value" : "針對絕大多數螢幕快速輸出視訊檔案 ",
+        "locale" : "zh_TW"
+      }, {
+        "value" : "Snelle uitvoer van videobestanden voor allerlei schermtypen",
+        "locale" : "nl_NL"
+      }, {
+        "value" : "Skapa snabbt videofiler för i stort sett alla skärmar",
+        "locale" : "sv_SE"
+      }, {
+        "value" : "Video dosyalarınızı neredeyse her ekranda oynatılabilecek biçimde hızlıca oluşturun",
+        "locale" : "tr_TR"
+      }, {
+        "value" : "Rychlý výstup videosouborů pro prakticky jakoukoli obrazovku",
+        "locale" : "cs_CZ"
+      }, {
+        "value" : "Błyskawicznie twórz pliki wideo do wyświetlania na praktycznie każdym ekranie",
+        "locale" : "pl_PL"
+      } ]
+    },
+    "DetailedDescription" : {
+      "Language" : [ {
+        "value" : "Adobe Media Encoder CC 2018 (version 12.0) adds notifications for missing elements, improvements for publishing to social destinations, and introduces automatic adjustment of output bitrates",
+        "locale" : "en_US"
+      }, {
+        "value" : "Adobe Media Encoder CC 2018 (version 12.0) adds notifications for missing elements, improvements for publishing to social destinations, and introduces automatic adjustment of output bitrates",
+        "locale" : "en_GB"
+      }, {
+        "value" : "Adobe Media Encoder CC 2018 (version 12.0) adds notifications for missing elements, improvements for publishing to social destinations, and introduces automatic adjustment of output bitrates",
+        "locale" : "en_AE"
+      }, {
+        "value" : "Adobe Media Encoder CC 2018 (version 12.0) adds notifications for missing elements, improvements for publishing to social destinations, and introduces automatic adjustment of output bitrates",
+        "locale" : "en_IL"
+      }, {
+        "value" : "Adobe Media Encoder CC 2018 (versión 12.0) añade notificaciones para todos los elementos que falten o no estén completos. También presenta mejoras a la hora de publicar contenido en destinos sociales y permite ajustar automáticamente la tasa de bits de salida.",
+        "locale" : "es_ES"
+      }, {
+        "value" : "Adobe Media Encoder CC 2018 (versión 12.0) añade notificaciones para todos los elementos que falten o no estén completos. También presenta mejoras a la hora de publicar contenido en destinos sociales y permite ajustar automáticamente la tasa de bits de salida.",
+        "locale" : "es_MX"
+      }, {
+        "value" : "Neu in Adobe Media Encoder CC 2018 (Version 12.0) sind Benachrichtigungen für fehlende Elemente, Verbesserungen bei der Veröffentlichung in Social Media sowie die automatische Anpassung von Ausgabe-Bitraten.",
+        "locale" : "de_DE"
+      }, {
+        "value" : "Adobe Media Encoder CC 2018 (version 12.0) ajoute des notifications pour les éléments manquants, s’accompagne d’améliorations relatives à la publication sur les réseaux sociaux et introduit le réglage automatique des débits de sortie.",
+        "locale" : "fr_FR"
+      }, {
+        "value" : "Adobe Media Encoder CC 2018 (version 12.0) ajoute des notifications pour les éléments manquants, s’accompagne d’améliorations relatives à la publication sur les réseaux sociaux et introduit le réglage automatique des débits de sortie.",
+        "locale" : "fr_CA"
+      }, {
+        "value" : "Adobe Media Encoder CC 2018 (version 12.0) ajoute des notifications pour les éléments manquants, s’accompagne d’améliorations relatives à la publication sur les réseaux sociaux et introduit le réglage automatique des débits de sortie.",
+        "locale" : "fr_MA"
+      }, {
+        "value" : "Adobe Media Encoder CC 2018 (versione 12.0) offre notifiche per elementi mancanti, funzioni migliorate per la pubblicazione su destinazioni social e regolazione automatica dei bitrate di output.",
+        "locale" : "it_IT"
+      }, {
+        "value" : "Adobe Media Encoder CC 2018 (バージョン 12.0) では、不明な要素に関する通知が追加され、ソーシャルメディアへの公開機能が強化されたほか、出力ビットレートの自動調整がサポートされました。",
+        "locale" : "ja_JP"
+      }, {
+        "value" : "Adobe Media Encoder CC 2018(버전 12.0)에는 누락된 요소 알림과 소셜 대상 게시 관련 개선 사항이 추가되었을 뿐 아니라 출력 비트 전송률의 자동 조정 기능이 새롭게 도입되었습니다.",
+        "locale" : "ko_KR"
+      }, {
+        "value" : "O Adobe Media Encoder CC 2018 (versão 12.0) apresenta a adição de notificações sobre elementos ausentes, melhorias na publicação para destinos sociais e o ajuste automático de taxas de bits de saída.",
+        "locale" : "pt_BR"
+      }, {
+        "value" : "В Adobe Media Encoder CC 2018 (версия 12.0) добавлены уведомления о недостающих элементах, улучшены функции публикации в социальных сетях и добавлена функция автоматической настройки скорости потока для выходных файлов.",
+        "locale" : "ru_RU"
+      }, {
+        "value" : "Adobe Media Encoder CC 2018（12.0 版）为缺失的元素添加通知，对发布至社交目标加以改进，并且引入了输出比特率的自动调整功能。",
+        "locale" : "zh_CN"
+      }, {
+        "value" : "Adobe Media Encoder CC 2018 (版本 12.0) 新增遺失元素的通知、改進發佈至社交目的地的功能，以及引進輸出位元速率的自動調整。",
+        "locale" : "zh_TW"
+      }, {
+        "value" : "Adobe Media Encoder CC 2018 (versie 12.0) voegt meldingen toe voor ontbrekende elementen en verbeteringen op het gebied van publiceren naar sociale media. Ook wordt automatische aanpassing van de uitgevoerde bitsnelheid geïntroduceerd.",
+        "locale" : "nl_NL"
+      }, {
+        "value" : "Adobe Media Encoder CC 2018 (version 12.0) har utökats med meddelanden om element som saknas, förbättrad publicering till sociala medier och automatisk justering av utgående bithastighet.",
+        "locale" : "sv_SE"
+      }, {
+        "value" : "Adobe Media Encoder CC 2018 (sürüm 12.0) eksik öğeler hakkında bildirimler ekler, sosyal hedeflere yönelik yayınlar için geliştirmeler sunar ve çıktı bit hızlarının otomatik olarak ayarlanmasını sağlar.",
+        "locale" : "tr_TR"
+      }, {
+        "value" : "Adobe Media Encoder CC 2018 (verze 12.0) přidává oznámení pro chybějící prvky, vylepšuje publikování na sociálních sítích a přináší automatickou úpravu výstupních přenosových rychlostí.",
+        "locale" : "cs_CZ"
+      }, {
+        "value" : "Adobe Media Encoder CC 2018 (wersja 12.0) dodaje powiadomienia dotyczące brakujących elementów, ulepszenia związane z publikowaniem w serwisach społecznościowych, a także wprowadza automatyczne dostosowanie szybkości transmisji danych wyjściowych.",
+        "locale" : "pl_PL"
+      } ]
+    }
+  },
+  "Icons" : {
+    "Size20x19" : {
+      "payload" : "iVBORw0KGgoAAAANSUhEUgAAABQAAAATCAYAAACQjC21AAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAALEgAACxIB0t1+/AAAABx0RVh0U29mdHdhcmUAQWRvYmUgRmlyZXdvcmtzIENTNui8sowAAAAWdEVYdENyZWF0aW9uIFRpbWUAMTAvMzAvMDZ8tDgbAAABR0lEQVQ4ja2TS07DQBBEX1tzPbgFEt8ECOIQSFaUBPIRsGdt349iMR+PPTZEIrWw3ONxd3V1tX3tviUMEJIBgIQgxRLpuyTAkEDZXcJdJ4yLqzNOgVXdUIU6J0OV2gz42DW879oU719b9pvm+IRBoASvHYOzftFpGG7YsGQgcXhrkeDy1uu7Xfv4Zu7j9bIBGbPHvv5u2LICPQ2oqqBtxZkQrmi5Zx1ju/Z6Xs88k82yQcDsYdwZbqhP9Fx8j77rYNPGkOGKTuR/8om6xJtlAxh3gdmq9preP3VMBbiiiPL3uCndduT3Sl01xTBYJSYK5SWNMutguKEgPRbpMbLDExixTb+iRliCUb/46S+ecw2FK7yUTVWk/pMEuT1LuUY2Zb44/6Whv1GhY/f0CEhUxej/kw/DPusuo/L5RQ9m1XNt8xWNyRD8ALbt6rVwqwa4AAAAAElFTkSuQmCC"
+    },
+    "Size32x32" : {
+      "payload" : "iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAALEgAACxIB0t1+/AAAABx0RVh0U29mdHdhcmUAQWRvYmUgRmlyZXdvcmtzIENTNui8sowAAAAWdEVYdENyZWF0aW9uIFRpbWUAMTAvMzAvMDZ8tDgbAAAD00lEQVRYhdWX32pkRRDGf9XJZhZmQCOrKCq4Bn0Dk/vxHdTFNWtMUPZ9FFxJ9q9R4yp44bVeZ/IGLgguKLgs68VkEaJzPi+6+pzunjNZvAhiw+Gc/lP1VX1V1d3HgAAsASvAsvfPsjXA38AJMFt28NH33/35CEAAEoov0lj7LV/TM7awD8g7aW7z3eEzwPEy0fPVHJhKGJVjfeDteOWussUqJ1eBk8TAMIG/9fb4noEkU6ZPgPm3mckU+6YYsvhW2w8YFt8KUVYBCHvXf3zatQ6BpWTASqIsA2+sxzmBSWZmCj7ZEEGFAR49N1jWqjUw5YSuAEttwnWUFuBqmA4apgOMBpA0HTSaDiRrzAHSg7vqZtTGqy9GYX5Fq0xmNN/ePVr75u7RmkFjRnPw9eTVg4PJRTqmUCeuLlA9hmgOn+WeyaTIkzdqaDQ9j5MYn+l5gQUbnRjYTNMBmJmN/spC0MYl87NIxuV8psi0rJIk+Opg8roEl95ZvycI+19O1iTYvDz+ScCdO0cvCriyOf6lVWitruSfLWRA9Yy3Rp10UYb+NM5EPb+wVWEoGKgMh0R5Jvj5F5PXBFy+tP6zINzeP3pFgs333vjVQ9CHubAtYsAEZmQbTcaCe294qtWycfnxOUQINpypG2+zds6AWgHCZB6CzMhkxO39yUWi5/cF4eatyUuNYPv9N+8Dtnv98DkBH22Pfz+NkT4GzMMQULuFlywkY1R5BkjHgyInzJnylXWezOUApoCsdbwGrkNx49bkZQFbVzZ+A8LuzcPnJdj5YOMhYCEMc2atcrZ3HzBMIW3JdQ4kBb5JFMyhbp/wgfbMSAoWl2H37orAOirKUKhgQYLdG4cvSLCztfEAI1zbPbwg4OqH44fJrbS9PSkHAtUm1AdMtqhlqMqJTqfMTXgyAy7cVmDaiudZYI4FgGt7h88KuLqz/khGMBulcj09B7ILRsDSEYqKMsyBe4yo+in2yfvITEVBcf9zxUGKlwsgJIWNU9y01HRjfc8nn01WP/508lRRhqcz0NUA8WajFNfk3b9mIQ4GD0HA5hnoy4GAoXSyb29tPCgk5D5ldW2R5ki7OaC7Yza0jIW0ro+BzADai4WM0awwwDLlDpnibbQ+pqQLFfjcqVmcBQIsXiLlA0pOu6eFEcq8Ik+4RHsHnlg5JQRdjJNQR3ZrT8ZD8c4yPZVbD7jfkOdCMANO0uDu3g8XVK3KBepLSV9y9varDY3sz2gGPK6pUdVRPadyXe9PywJw7z4GZgacA0bEP5Uh8b5+lu3Ewf8AjlOM/rOf0zPG+h+0fwCkkKwHpQ52ZAAAAABJRU5ErkJggg=="
+    },
+    "Size44x42" : {
+      "payload" : "iVBORw0KGgoAAAANSUhEUgAAACwAAAAqCAYAAADI3bkcAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAALEgAACxIB0t1+/AAAABx0RVh0U29mdHdhcmUAQWRvYmUgRmlyZXdvcmtzIENTNui8sowAAAAWdEVYdENyZWF0aW9uIFRpbWUAMTAvMzAvMDZ8tDgbAAADE0lEQVRYhdVYwXLTMBB96vj3yl8UCCFpUsrwDQwTQkObdjpw5xz/H8tBtrSSVt51aNJkT/aupH22np5Wcn8e/xIAEADAwZt/I+rfAVDng9srTl2c5+jjxPr3cQIBfPxujCYFWgEbIqVvPyMlWsb7D27yv+qDLm8tDHDID6pbw4FeTd4cPOE+tvnehueL/kH6Y6dnDs15AI12oTd5fSO2hhqt8a/Hne8Eh6vJZfA/P+yChL2bHo/7jaQA3EhQkdcxj6PRpUgGegwJk0ylBF+Uz9s2aPLbaaTH0733Exwms+jfbtqOfw7T6+j/ud4BcCAQ5ks7nQiU6rDeg2+/luYebJnDibtZ3WI+XdYYx6t87v7uaJ6PkNT+A3VKVOqMp/tu9yHC+1mc1u2m7dyE6bU83bPlpei3mApYqzGOuvjIGWRNmjaFy5G7L2Oc7010GhIUQP17TwMA+DCP0/1wtwORAwGYLaKfFzPzGyM9yKrD4qKLYOUiHSGWFuf50OMWKQG6rEkgc6AxeZ0+pXuMnDJZM7RmSYSiPTnaUKABAHzkNFjvQmJOgx8r7ycAy9s6Pfosqg7X4tIZjbc/SOVBZPnDvD2HMQBUmu4+nscUnscM3gy1hASyBFqCdZ4GHShOg7tVG07FiwEaZEA8YJ38+qKj6ERyTO/AFrmFI7wFLOD4qbnamgF0QiQdUAIq0SDpb7JOh7VmhXwVIONgQ2BrNFh/a0Pfm896qWnQYQlgBFkDGsHWb3J4/2G1imMYy0uJDuwDRKBpohoNdLBpPoOsDRTb1Y2kpAifqbE0SIofjfhDqz0F2dvAX80+ZuydCFnKyyrvKvqcf2CuzX18H7CAiRK1QkUAmQP1nZFThINdfe3vN4DbL/ImwturOuyxVsQ/A1kCjX3FP8tPLEZRbrTTq2XBJS2MQH3Mhc4mvJbiZ/HpRK5gw4X2Odxeshk5i9tLAIHrZwGYL0xDeXki1sF0v1c6YuvWLKsFUNVsVDaQ/DqBdSlUYlDmxGJcTpYDzcceAurblmAJmg5Xy0HJ+R9AWf/kWoHKx382XSg5ah3SxwAAAABJRU5ErkJggg=="
+    },
+    "Size64x64" : {
+      "payload" : "iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAALEgAACxIB0t1+/AAAABx0RVh0U29mdHdhcmUAQWRvYmUgRmlyZXdvcmtzIENTNui8sowAAAAWdEVYdENyZWF0aW9uIFRpbWUAMTAvMzAvMDZ8tDgbAAAE/klEQVR4nO1bbU4cORB9DQNZkKK9AFJOlFwiinYRIUBIlDskIWhAbKIoB8hv5kSRcoFopc0CYZwftsfldrnsoruBGXjSqGfc5Y9nl8vl8riBRUOeS0zaPMO0nlOaNoIl6IkvAxi55xJ5N88w7jMFcAngl3tOAUsWsGRHAFa/fpz+CDmbVjmAMUx/GNOSz8hm5DhZY/w7vkwTBCM5499kynu6v/QngHO4jvAasAxgFcB6KDwlzyIhpYeWfLvuhLyMdVLodIQw+n8AeJgSyY8Sj1JjbxwPEabDJZ0CqwDWgpyBE/oO1Kp+GZz6D4wNWA33WAPw031Ap8AIwINWw74/23zy6HraOQyOPky+GWMchwYAHiAY+oYuecsAVmjmOpWfO6zAkQeCBsyWwQUlTREt8UsF4YXHwndAuqTGkDvg9ixdg2GUpNwB0hRpBxDUrO9fPp4SWYNnm0+i959PTmfvjGnw9/PHV27s1ZHnkXSA1qUtyXdxkfsG5yqLGlDvrQkbJV/1LV1emQ7Q2oAy+ZuFvFHKakDtiLXlPp9QmwD8tRXP+U/HwSYAwOZ2bDNOxhNQjXm+O6zNSG1AF1UV9vszEWIT+LoM8204FGxABQxtcBxDuOq06Nte5IIkQA8dkIsflMiXSBor1KltNeA7QFVxLNsm9uk4tgmb2/GcPhmfgkZ+tnZim9AV0ugDPXmC2dGssAlEWF1vH+juCHUJkgIAWREG8xWEcrsbwVklralQRZ5mH95R4nSsuyMkrAJBJKT/czRxW1SbtrUT24Tjw1P3rYGBwYu92CaMDyaudAOYBruvCn5CoWN7XgVkg5gLd6doxBC3J69rJw+2A3TqyDg7TH6OfM4mlCx3vma9XGdPsDy3Kw85koz8+6uMPmlMktSfEUzqopXlj7fonAeA7b14To8PYpuwu6/zE9IjtBi9dIBhC5fPFWNPr3S0JduELmCmgK4iOejIq7uWfMjYVfUH2AtIh6gq4gK5vuc9BdMB2opk0jMJxiZw5I8+xH7Czn5sEw7fxTbh5etam1C7F1AiZ81548OoO+sr9G0TVK6w0gawie3UWuIt2ezeweep0VZqeIdYBosrgEzcFlFLPpSn9ldqY4L6TYngsEQJlcSJrAFw+H7iOtmm7b3Wxwil6dLDXkD6+0ymcyoMom6prGsfN7j5qLC6KpR991riVpiX6xlMQIT+qKhURRqQDCJH3st1jRfk8vd+OFpyi2uJU1na+IO31ib4bfirN2WbIHWeYANqD0aUqwCQErcFRXmzI0/I18yKkub04AnqV4Ea4vZVk8hpyNeAD4goSs/KcvuAKCHdoEijbt/H5NV9UBMP0Fpb7f78xpCxbYW/yAwfqb0WCIadWQUWhLRHNmptsfD/EvPIHfjciQ6QTrsyYfFh3M6bQESeoZVowCKRj5ChNXKvDGb/oY/UZWN8MPkml6vbDeb9AQ/ZixQ9O97gbbSK8NdlDGDvDPl2XQK4aBW5DOBRrjF8IwohMqaxAXL0pnQMb/PlVd79vIDlaoCgAf4y0Zl62ylGbuTGBvQ+6jnyAHCGcHFqpgFT2ItEP/M1ocpHyHZfQdVtXgXxVpmV5AHL8Rzu1lgDawhXYG9SrMPeqVlzv/3lgnmGn9pnsOT/BfCf+31Bp8C5yzB1gvT+4DyD3hc8B/C/e17C6bT/3MWLk7NJRp936urs9TfnHve4x23Cb0zW3sB54OKzAAAAAElFTkSuQmCC"
+    },
+    "Size88x84" : {
+      "payload" : "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"
+    },
+    "Size176x168" : {
+      "payload" : "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"
+    }
+  },
+  "SystemRequirement" : {
+    "SupportedOsVersionRange" : [ {
+      "min" : "6.1.7601",
+      "max" : "10.0.10239"
+    }, {
+      "min" : "10.0.10241"
+    } ],
+    "OsComponent" : "api-ms-win-crt-runtime-l1-1-0.dll",
+    "ExternalUrl" : {
+      "Stage" : {
+        "Language" : [ {
+          "value" : "https://helpx.stage.adobe.com/media-encoder/system-requirements.html",
+          "locale" : "mul"
+        } ]
+      },
+      "Prod" : {
+        "Language" : [ {
+          "value" : "https://helpx.adobe.com/media-encoder/system-requirements.html",
+          "locale" : "mul"
+        } ]
+      }
+    }
+  },
+  "WhatsNewUrl" : {
+    "Stage" : {
+      "Language" : [ {
+        "value" : "http://www.adobe.com/products/media-encoder.html",
+        "locale" : "mul"
+      } ]
+    },
+    "Prod" : {
+      "Language" : [ {
+        "value" : "http://www.adobe.com/products/media-encoder.html",
+        "locale" : "mul"
+      } ]
+    }
+  },
+  "MoreInfoUrl" : {
+    "Stage" : {
+      "Language" : [ {
+        "value" : "http://www.adobe.com/products/media-encoder.html",
+        "locale" : "mul"
+      } ]
+    },
+    "Prod" : {
+      "Language" : [ {
+        "value" : "http://www.adobe.com/products/media-encoder.html",
+        "locale" : "mul"
+      } ]
+    }
+  },
+  "TutorialUrl" : {
+    "Stage" : {
+      "Language" : [ {
+        "value" : "https://helpx.adobe.com/media-encoder/tutorials.html",
+        "locale" : "en_US"
+      }, {
+        "value" : "https://helpx.adobe.com/media-encoder/tutorials.html",
+        "locale" : "en_GB"
+      }, {
+        "value" : "https://helpx.adobe.com/media-encoder/tutorials.html",
+        "locale" : "en_AE"
+      }, {
+        "value" : "https://helpx.adobe.com/media-encoder/tutorials.html",
+        "locale" : "en_IL"
+      }, {
+        "value" : "https://helpx.adobe.com/es/media-encoder/tutorials.html",
+        "locale" : "es_ES"
+      }, {
+        "value" : "https://helpx.adobe.com/es/media-encoder/tutorials.html",
+        "locale" : "es_MX"
+      }, {
+        "value" : "https://helpx.adobe.com/de/media-encoder/tutorials.html",
+        "locale" : "de_DE"
+      }, {
+        "value" : "https://helpx.adobe.com/fr/media-encoder/tutorials.html",
+        "locale" : "fr_FR"
+      }, {
+        "value" : "https://helpx.adobe.com/fr/media-encoder/tutorials.html",
+        "locale" : "fr_CA"
+      }, {
+        "value" : "https://helpx.adobe.com/fr/media-encoder/tutorials.html",
+        "locale" : "fr_MA"
+      }, {
+        "value" : "https://helpx.adobe.com/it/media-encoder/tutorials.html",
+        "locale" : "it_IT"
+      }, {
+        "value" : "https://helpx.adobe.com/jp/media-encoder/tutorials.html",
+        "locale" : "ja_JP"
+      }, {
+        "value" : "https://helpx.adobe.com/kr/media-encoder/tutorials.html",
+        "locale" : "ko_KR"
+      }, {
+        "value" : "https://helpx.adobe.com/br/media-encoder/tutorials.html",
+        "locale" : "pt_BR"
+      }, {
+        "value" : "https://helpx.adobe.com/ru/media-encoder/tutorials.html",
+        "locale" : "ru_RU"
+      }, {
+        "value" : "https://helpx.adobe.com/cn/media-encoder/tutorials.html",
+        "locale" : "zh_CN"
+      }, {
+        "value" : "https://helpx.adobe.com/tw/media-encoder/tutorials.html",
+        "locale" : "zh_TW"
+      }, {
+        "value" : "https://helpx.adobe.com/nl/media-encoder/tutorials.html",
+        "locale" : "nl_NL"
+      }, {
+        "value" : "https://helpx.adobe.com/se/media-encoder/tutorials.html",
+        "locale" : "sv_SE"
+      }, {
+        "value" : "https://helpx.adobe.com/tr/media-encoder/tutorials.html",
+        "locale" : "tr_TR"
+      }, {
+        "value" : "https://helpx.adobe.com/cz/media-encoder/tutorials.html",
+        "locale" : "cs_CZ"
+      }, {
+        "value" : "https://helpx.adobe.com/pl/media-encoder/tutorials.html",
+        "locale" : "pl_PL"
+      } ]
+    },
+    "Prod" : {
+      "Language" : [ {
+        "value" : "https://helpx.adobe.com/media-encoder/tutorials.html",
+        "locale" : "en_US"
+      }, {
+        "value" : "https://helpx.adobe.com/media-encoder/tutorials.html",
+        "locale" : "en_GB"
+      }, {
+        "value" : "https://helpx.adobe.com/media-encoder/tutorials.html",
+        "locale" : "en_AE"
+      }, {
+        "value" : "https://helpx.adobe.com/media-encoder/tutorials.html",
+        "locale" : "en_IL"
+      }, {
+        "value" : "https://helpx.adobe.com/es/media-encoder/tutorials.html",
+        "locale" : "es_ES"
+      }, {
+        "value" : "https://helpx.adobe.com/es/media-encoder/tutorials.html",
+        "locale" : "es_MX"
+      }, {
+        "value" : "https://helpx.adobe.com/de/media-encoder/tutorials.html",
+        "locale" : "de_DE"
+      }, {
+        "value" : "https://helpx.adobe.com/fr/media-encoder/tutorials.html",
+        "locale" : "fr_FR"
+      }, {
+        "value" : "https://helpx.adobe.com/fr/media-encoder/tutorials.html",
+        "locale" : "fr_CA"
+      }, {
+        "value" : "https://helpx.adobe.com/fr/media-encoder/tutorials.html",
+        "locale" : "fr_MA"
+      }, {
+        "value" : "https://helpx.adobe.com/it/media-encoder/tutorials.html",
+        "locale" : "it_IT"
+      }, {
+        "value" : "https://helpx.adobe.com/jp/media-encoder/tutorials.html",
+        "locale" : "ja_JP"
+      }, {
+        "value" : "https://helpx.adobe.com/kr/media-encoder/tutorials.html",
+        "locale" : "ko_KR"
+      }, {
+        "value" : "https://helpx.adobe.com/br/media-encoder/tutorials.html",
+        "locale" : "pt_BR"
+      }, {
+        "value" : "https://helpx.adobe.com/ru/media-encoder/tutorials.html",
+        "locale" : "ru_RU"
+      }, {
+        "value" : "https://helpx.adobe.com/cn/media-encoder/tutorials.html",
+        "locale" : "zh_CN"
+      }, {
+        "value" : "https://helpx.adobe.com/tw/media-encoder/tutorials.html",
+        "locale" : "zh_TW"
+      }, {
+        "value" : "https://helpx.adobe.com/nl/media-encoder/tutorials.html",
+        "locale" : "nl_NL"
+      }, {
+        "value" : "https://helpx.adobe.com/se/media-encoder/tutorials.html",
+        "locale" : "sv_SE"
+      }, {
+        "value" : "https://helpx.adobe.com/tr/media-encoder/tutorials.html",
+        "locale" : "tr_TR"
+      }, {
+        "value" : "https://helpx.adobe.com/cz/media-encoder/tutorials.html",
+        "locale" : "cs_CZ"
+      }, {
+        "value" : "https://helpx.adobe.com/pl/media-encoder/tutorials.html",
+        "locale" : "pl_PL"
+      } ]
+    }
+  },
+  "AppsPanelPreviousVersionConfig" : {
+    "ListInPreviousVersion" : true,
+    "BrandingName" : "CC"
+  },
+  "AppsPanelFullAppUpdateConfig" : {
+    "PreviousVersionRange" : {
+      "min" : "8.0"
+    },
+    "ShowDialogBox" : true,
+    "ImportPreferenceCheckBox" : {
+      "DefaultValue" : true,
+      "Show" : true,
+      "AllowToggle" : true
+    },
+    "RemovePreviousVersionCheckBox" : {
+      "DefaultValue" : false,
+      "Show" : true,
+      "AllowToggle" : true
+    }
+  },
+  "MinimumSupportedClientVersion" : "4.3.0.1",
+  "HDBuilderVersion" : "0.0.167",
+  "version" : "12.0.0"
+}

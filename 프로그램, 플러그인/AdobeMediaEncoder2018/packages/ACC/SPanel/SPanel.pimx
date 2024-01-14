@@ -1,0 +1,65 @@
+<package_installation_info version="2.0">
+<packageid>222FF29D-9B26-45D1-B79C-FD9B42D7135A</packageid> 
+ 	<name>SPanel</name>
+<version>4.3.0.256</version>
+	<target_location>/SPanel/</target_location>
+	<packages>
+		<pimaInfo>
+			<packagetype>zip</packagetype> 
+			<name>SPanel</name>
+			<assets_size>2766508</assets_size> 	
+			<applet_registration_info>
+				<applet_registration_element>
+					<name>SPanel</name>
+					<type>UI</type>
+					<version>1.0</version>
+					<module_path>/SPanel/resource/ui/sInit.js</module_path>
+					<display_name>StockPanel UI</display_name>
+				</applet_registration_element>
+				<applet_registration_element>
+					<name>SPanel</name>
+					<type>BL</type>
+					<version>1.0</version>
+					<module_path>/SPanel/SPanelBL.dll</module_path>
+					<display_name>StockPanel BL</display_name>
+				</applet_registration_element>
+			</applet_registration_info>
+			<applet_relationship_info>
+				<applet_relationship_element>
+					<name>SPanel</name>
+					<type>BL</type>
+					<version>1.0</version>
+					<relationship>PanelOf</relationship>
+					<relative_name>C3Container</relative_name>
+					<relative_type>BL</relative_type>
+					<relative_version>1.0</relative_version>
+					<relative_order>4000</relative_order>
+				</applet_relationship_element>
+				<applet_relationship_element>
+					<name>SPanel</name>
+					<type>UI</type>
+					<version>1.0</version>
+					<relationship>PanelOf</relationship>
+					<relative_name>C3Container</relative_name>
+					<relative_type>UI</relative_type>
+					<relative_version>1.0</relative_version>
+					<relative_order>4000</relative_order>
+				</applet_relationship_element>
+				<applet_relationship_element>
+					<name>SPanel</name>
+					<type>UI</type>
+					<version>1.0</version>
+					<relationship>UIX</relationship>
+					<relative_name>HEX</relative_name>
+					<relative_type>UIX</relative_type>
+					<relative_version>1.0</relative_version>
+					<relative_order>4000</relative_order>
+				</applet_relationship_element>
+			</applet_relationship_info>
+			<validation_info>
+				<validation_xml>PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48VmFsaWRhdGlvbkluZm8+PEZpbGU+PEluc3RhbGxQYXRoPlNQYW5lbEJMLmRsbDwvSW5zdGFsbFBhdGg+PFNpZ25hdHVyZVR5cGU+RGlnaXRhbFNpZ25hdHVyZTwvU2lnbmF0dXJlVHlwZT48U2lnbmF0dXJlSW5mbz5BZG9iZSBTeXN0ZW1zIEluY29ycG9yYXRlZHt8fVN5bWFudGVjIENsYXNzIDMgRXh0ZW5kZWQgVmFsaWRhdGlvbiBDb2RlIFNpZ25pbmcgQ0EgLSBHMnt8fVZlcmlTaWduIENsYXNzIDMgUHVibGljIFByaW1hcnkgQ2VydGlmaWNhdGlvbiBBdXRob3JpdHkgLSBHNTwvU2lnbmF0dXJlSW5mbz48L0ZpbGU+PC9WYWxpZGF0aW9uSW5mbz4=</validation_xml>
+				<sig>uQ/0Du12ojIERqlw3vm1Z/7zXmZxO79mULiBGuW1T8/MrafhlEddTEWc/Are9I5YxysPWMBni7OJfYhGdQib1hgSfMoIr0bOV4sStGeZdjuDAjVq3PKKUSS1knKVc6q5hrSBnGB/8ySSt246zhC7uAcRMqnAnUUB9T8PPj91q0xQXknxqLfN/reNIgZUt8rB1ItawbUqHyBidy2WEWp0BLQrvCPkK6O3trP03gqMCS9yMdAZ77kTkgy6/Xlyawt2a81Zdw0jS9KUJjEFyzEHV4tVn9n/NofvavsbYHen1ONuRXP/DgZiRjRIKL0BeKGdLZaG3zlmeJ7r5M9EHgnIeoAw76Bj2qeRXz355Z1tn7WhEuFEQfMNy5P5zsuWFFURwgZSBWnZyuO6VhYGyKw+ouGY6KXo0XSR0P0NjU1E+ENA2OFqxwjezY+6JwfZxNQfrDaUNfPQ4kiYa5kO6YAzbTE20wbrYLNQQTR+Z/ZEdceQkFC++nftkVgKJA65OvpE</sig>
+			</validation_info>
+		</pimaInfo>
+	</packages>
+</package_installation_info>
